@@ -225,6 +225,12 @@
                                             <button type="submit" class="btn btn-primary btn-md btn-block waves-effect waves-light text-center m-b-20">Sign in</button>
                                         </div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            Don't have an account?
+                                            <a href="{{route('register')}}" class="text-info">Sign up now! </a>
+                                        </div>
+                                    </div>
                                     <hr/>
                                     <div class="row">
                                         <div class="col-md-10">
