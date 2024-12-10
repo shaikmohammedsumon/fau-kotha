@@ -1,7 +1,9 @@
 <?php
 
-use App\Http\Controllers\Dashboard\ProfileController;
+use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\Dashboard\ProfileController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -19,3 +21,6 @@ Route::post('/profile/name',[ProfileController::class,'name'])->name('profile.na
 Route::post('/profile/password',[ProfileController::class,'password'])->name('profile.password');
 
 
+//Category
+Route::resource('/category',CategoryController::class);
+Route::get('/category/status/{id}',[CategoryController::class,'action'])->name('category.status');
