@@ -57,7 +57,11 @@
                         @empty
                             <p class="text-danger text-center">No Date</p>
                         @endforelse
+
                     </table>
+                    <div>
+                        {{ $categories->links() }}
+                    </div>
                 </div>
             </div>
         </div>
@@ -121,6 +125,7 @@
             </div>
         </div>
     </div>
+
 
 
 </div>

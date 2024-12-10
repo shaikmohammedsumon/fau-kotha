@@ -17,7 +17,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = Category::latest()->get();
+        $categories = Category::latest()->paginate(3);
         return view('dashboard.category.index',compact('categories'));
     }
 

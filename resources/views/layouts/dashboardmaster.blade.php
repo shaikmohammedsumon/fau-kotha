@@ -48,6 +48,16 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+
+        <style>
+            .pagination {
+                display: flex;
+                justify-content: center; /* অনুভূমিকভাবে সেন্টারে রাখবে */
+                align-items: center; /* উল্লম্বভাবে সেন্টারে রাখবে */
+                margin-top: 20px; /* ওপরে কিছুটা ফাঁকা রাখবে */
+            }
+        </style>
 </head>
 
 <body>
